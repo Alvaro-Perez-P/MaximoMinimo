@@ -1,0 +1,36 @@
+package Clases;
+
+public class Maximo {
+	
+	/**
+	 * 
+	 * @param numero1
+	 * @param numero2
+	 * @param numero3
+	 * @return devuelve el numero mayor
+	 * @throws IllegalAccessException
+	 */
+	public static int MaximoDe3EnterosPositivos(int numero1, int numero2,int numero3) throws IllegalAccessException{
+		int numeroMaximo=numero1;
+		
+		
+		
+		
+		if (numero1<0 || numero2<0 || numero3<0) {
+			throw new IllegalAccessException("Fuera de rango");
+			
+		}
+
+        if (numero2 > numeroMaximo) {
+            numeroMaximo = numero2;
+        }
+
+        if (numero3 > numeroMaximo) {
+            numeroMaximo = numero3;
+        }
+		return numeroMaximo;
+		
+		
+	}
+
+}

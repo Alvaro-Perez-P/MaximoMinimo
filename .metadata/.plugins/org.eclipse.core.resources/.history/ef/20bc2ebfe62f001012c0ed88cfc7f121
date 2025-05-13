@@ -1,0 +1,31 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import Clases.Maximo;
+
+
+
+class TestMaximo {
+	static int numero1;
+	static int numero2;
+	static int numero3;
+	
+	@BeforeAll
+	static void setup(){
+		numero1=5;
+		numero2=3;
+		numero3=9;
+	}
+
+	@Test
+	void testMaximoDe2EnterosPositivos() {			
+	int numeroObtenido=Maximo.MaximoDe2EnterosPositivos(numero1, numero2, numero3);
+	int numeroEsperado=9;
+	assertEquals(numeroObtenido, numeroEsperado);
+	}
+
+}

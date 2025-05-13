@@ -1,0 +1,14 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestMaximo {
+
+	@Test
+	void testMaximoDe2EnterosPositivos() {
+		fail("Not yet implemented");
+	}
+
+}

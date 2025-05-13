@@ -1,0 +1,28 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+
+	
+
+class TestMinimo {
+	int numero1;
+	int numero2;
+	int numero3;
+
+	@BeforeAll
+	static void setup{
+		numero1=5;
+		numero2=3;
+		numero3=9;
+	}
+
+	@Test
+	void testMinimoDe2EnterosPositivos() {
+		fail("Not yet implemented");
+	}
+
+}
