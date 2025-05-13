@@ -7,10 +7,10 @@ public class Minimos {
 	 * @param numero1
 	 * @param numero2
 	 * @param numero3
-	 * @return devuelve el numero mayor
+	 * @return devuelve el numero menor
 	 * @throws IllegalAccessException
 	 */
-	public static int MinimoDe2EnterosPositivos(int numero1, int numero2,int numero3) throws IllegalAccessException{
+	public static int MinimoDeEnterosPositivos(int numero1, int numero2,int numero3) throws IllegalAccessException{
 		int numeroMinimo=0;
 		
 		

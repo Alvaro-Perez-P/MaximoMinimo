@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestMaximo" project="MaximoMinimos" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="test.TestMaximo" time="0.0" displayname="TestMaximo" uniqueid="[engine:junit-jupiter]/[class:test.TestMaximo]">
+    <testcase name="testMaximoDe3EnterosPositivos" classname="test.TestMaximo" time="0.0" displayname="testMaximoDe3EnterosPositivos()" uniqueid="[engine:junit-jupiter]/[class:test.TestMaximo]/[method:testMaximoDe3EnterosPositivos()]"/>
+  </testsuite>
+</testrun>
